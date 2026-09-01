@@ -5,13 +5,13 @@
     <description>齐我输入法 Windows 端测试版更新源</description>
     <language>zh-cn</language>
     <item>
-      <title>齐我输入法 0.2.6</title>
-      <sparkle:releaseNotesLink>https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.6</sparkle:releaseNotesLink>
-      <pubDate>Tue, 01 Sep 2026 10:14:48 GMT</pubDate>
+      <title>齐我输入法 0.2.7</title>
+      <sparkle:releaseNotesLink>https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.7</sparkle:releaseNotesLink>
+      <pubDate>Tue, 01 Sep 2026 10:34:19 GMT</pubDate>
       <enclosure
-        url="https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.6/qiwo-0.2.6.0-installer.exe"
-        sparkle:version="0.2.6.0"
-        sparkle:shortVersionString="0.2.6"
+        url="https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.7/qiwo-0.2.7.0-installer.exe"
+        sparkle:version="0.2.7.0"
+        sparkle:shortVersionString="0.2.7"
         sparkle:os="windows"
         type="application/octet-stream" />
     </item>
