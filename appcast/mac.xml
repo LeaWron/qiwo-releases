@@ -4,15 +4,15 @@
     <title>齐我输入法 macOS 更新</title>
     <link>https://raw.githubusercontent.com/LeaWron/qiwo-releases/main/appcast/mac.xml</link>
     <item>
-      <title>齐我输入法 0.1.0</title>
+      <title>齐我输入法 0.1.1</title>
       <!-- 没有这一行的话，Sparkle 的更新弹窗只显示版本号，用户看不到
            这版改了什么。指向 release 页面，内容就是上面
            release-notes.sh 生成的那份。qiwo-win 的 appcast 同理。 -->
-      <sparkle:releaseNotesLink>https://github.com/LeaWron/qiwo-releases/releases/tag/mac-v0.1.0</sparkle:releaseNotesLink>
-      <pubDate>Tue, 01 Sep 2026 12:53:22 +0000</pubDate>
-      <sparkle:version>0.1.0</sparkle:version>
+      <sparkle:releaseNotesLink>https://github.com/LeaWron/qiwo-releases/releases/tag/mac-v0.1.1</sparkle:releaseNotesLink>
+      <pubDate>Wed, 02 Sep 2026 07:06:24 +0000</pubDate>
+      <sparkle:version>0.1.1</sparkle:version>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.0/Qiwo-0.1.0-update.tar.gz" sparkle:edSignature="S4Wn/y0lKnB4TmhDtR8pQQJeDVol66kqtOCM9TOBZqr8SYYCKl4rRJbsOg7H//SYSHnFqbnjxyMIcBatxjFuCQ==" length="57424033" type="application/octet-stream"/>
+      <enclosure url="https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.1/Qiwo-0.1.1-update.tar.gz" sparkle:edSignature="1/3lw5H7ANVgRIWlBBgU1zrTZ4Qq6zb7qB1nsXrZ81r2Flmuv4z1NXlyqng0NCUJiYwQJxR3XPKAJ6BE5L+6Aw==" length="57452218" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
