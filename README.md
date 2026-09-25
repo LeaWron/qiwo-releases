@@ -14,7 +14,7 @@ Qiwo Input Method —— 基于 [RIME | 中州韵输入法引擎](https://rime.i
 | Windows | `win-v*` | 0.2.7 | 单个安装器，内含 x64 与 32 位组件；ARM64 的 Win11 装 x64 那份。可与小狼毫共存 |
 | macOS | `mac-v*` | 0.1.0 | 压缩包附 `install.sh`；macOS 13.0+，通用二进制（Intel / Apple Silicon） |
 | Linux / IBus | `lin-v*` | 0.1.1 | IBus 引擎；压缩包附 `install.sh`，装到 `/usr` |
-| Linux / Fcitx5 | `fcitx5-v*` | 待发布 | Ubuntu 26.04 amd64 / X11；独立 deb，内置助手；Qt 私有 ABI 6.10.2 |
+| Linux / Fcitx5 | `fcitx5-v*` | [0.1.1](https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.1) | Ubuntu 26.04 amd64 / X11；独立 deb，内置助手；Qt 私有 ABI 6.10.2 |
 | Android | `android-v*` | 0.2.2 | 单 APK，装完即用（内置白霜）；Android 6.0+，四个 ABI 各一个包 |
 | 桌面助手 | `companion-v*` | 0.1.4 | **不用单独下载**，见下 |
 
@@ -70,6 +70,16 @@ Qiwo 构建于以下开源项目之上：[librime](https://github.com/rime/libri
 
 ## Fcitx5 发布通道
 
-源码与构建说明位于 [qiwo-fcitx5](https://github.com/LeaWron/qiwo-fcitx5)（当前为私有源码仓库）。构建流程使用独立 `fcitx5-v*` 标签，先创建包含安装包和校验和的发布草稿，验收后再公开。草稿不代表已经发布。当前只支持 Ubuntu 26.04 amd64 / X11，Wayland 和其他发行版尚未验收。
+当前版本为 **[0.1.1](https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.1)**，使用独立的 `fcitx5-v*` 标签。下载 [amd64 deb](https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.1/qiwo-fcitx5_0.1.1_amd64.deb) 和 [SHA-256 校验和](https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.1/release-SHA256SUMS.txt)，在下载目录执行：
+
+```sh
+sha256sum -c release-SHA256SUMS.txt
+sudo apt-get --no-remove --no-install-recommends install ./qiwo-fcitx5_0.1.1_amd64.deb
+qiwo-fcitx5-setup enable
+```
+
+启用命令以桌面用户运行，保存工作后重新登录 X11。0.1.1 已通过旧版升级、设备 ID 与词库保留、重启后的自动启动，以及 Qt6 / GTK3 系统输入验收。当前只支持 Ubuntu 26.04 amd64 / X11，Wayland 和其他发行版尚未验收。
+
+源码与构建说明位于 [qiwo-fcitx5](https://github.com/LeaWron/qiwo-fcitx5)（当前为私有源码仓库）。
 
 Fcitx5 暂无应用内自动更新；请使用对应 deb 升级，不要安装 `lin-v*` 的 IBus 更新包。升级前结束输入和同步、关闭助手并退出 Fcitx5；安装新包后运行 `qiwo-fcitx5-setup enable`。回退使用 `qiwo-fcitx5-setup rollback`，用户词库与设备 ID 保留。
