@@ -13,7 +13,8 @@ Qiwo Input Method —— 基于 [RIME | 中州韵输入法引擎](https://rime.i
 |------|----------|------|------|
 | Windows | `win-v*` | 0.2.7 | 单个安装器，内含 x64 与 32 位组件；ARM64 的 Win11 装 x64 那份。可与小狼毫共存 |
 | macOS | `mac-v*` | 0.1.0 | 压缩包附 `install.sh`；macOS 13.0+，通用二进制（Intel / Apple Silicon） |
-| Linux | `lin-v*` | 0.1.1 | IBus 引擎；压缩包附 `install.sh`，装到 `/usr` |
+| Linux / IBus | `lin-v*` | 0.1.1 | IBus 引擎；压缩包附 `install.sh`，装到 `/usr` |
+| Linux / Fcitx5 | `fcitx5-v*` | 待发布 | Ubuntu 26.04 amd64 / X11；独立 deb，内置助手；Qt 私有 ABI 6.10.2 |
 | Android | `android-v*` | 0.2.2 | 单 APK，装完即用（内置白霜）；Android 6.0+，四个 ABI 各一个包 |
 | 桌面助手 | `companion-v*` | 0.1.4 | **不用单独下载**，见下 |
 
@@ -29,7 +30,8 @@ Qiwo Input Method —— 基于 [RIME | 中州韵输入法引擎](https://rime.i
 
 - **Windows**：运行 `qiwo-*-installer.exe`
 - **macOS**：解包后 `./install.sh`（不提供 dmg：没有代码签名，dmg 装法容易被系统拦下）
-- **Linux**：解包后 `./install.sh`，然后在 IBus 设置里添加「齐我输入法」
+- **Linux / IBus**：解包后 `./install.sh`，然后在 IBus 设置里添加「齐我输入法」
+- **Linux / Fcitx5**：安装对应 deb 后，以普通用户运行 `qiwo-fcitx5-setup enable`；已有其他 Fcitx5 配置时先阅读安装说明
 - **Android**：按机器架构选 APK（不确定就选 `arm64-v8a`）
 
 > Windows 提示「未知发布者」、macOS 提示无法验证开发者均属预期（未做代码签名，
@@ -42,7 +44,7 @@ Android 的 APK 全部由同一个证书签名（SHA-256
 
 ## 更新
 
-四个端都能在应用内检查并完成更新，不需要手动来这里下载：
+已发布的 Windows、macOS、IBus 和 Android 通道支持应用内更新：
 
 | 平台 | 入口 | 机制 |
 |------|------|------|
@@ -65,3 +67,9 @@ Qiwo 构建于以下开源项目之上：[librime](https://github.com/rime/libri
 [fcitx5-android](https://github.com/fcitx5-android/fcitx5-android)、
 [rime-frost](https://github.com/gaboolic/rime-frost) 等。各端源码依相应
 开源许可证（GPLv3 / LGPL-2.1 等）提供。
+
+## Fcitx5 发布通道
+
+源码与构建说明位于 [qiwo-fcitx5](https://github.com/LeaWron/qiwo-fcitx5)（当前为私有源码仓库）。构建流程使用独立 `fcitx5-v*` 标签，先创建包含安装包和校验和的发布草稿，验收后再公开。草稿不代表已经发布。当前只支持 Ubuntu 26.04 amd64 / X11，Wayland 和其他发行版尚未验收。
+
+Fcitx5 暂无应用内自动更新；请使用对应 deb 升级，不要安装 `lin-v*` 的 IBus 更新包。升级前结束输入和同步、关闭助手并退出 Fcitx5；安装新包后运行 `qiwo-fcitx5-setup enable`。回退使用 `qiwo-fcitx5-setup rollback`，用户词库与设备 ID 保留。
