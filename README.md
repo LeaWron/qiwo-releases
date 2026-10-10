@@ -15,7 +15,7 @@ Qiwo Input Method —— 基于 [RIME | 中州韵输入法引擎](https://rime.i
 | macOS | `mac-v*` | 0.1.3 | 压缩包附 `install.sh`；macOS 13.0+，通用二进制（Intel / Apple Silicon） |
 | Linux / IBus | `lin-v*` | 0.1.5 | IBus 引擎；压缩包附 `install.sh`，装到 `/usr` |
 | Linux / Fcitx5 | `fcitx5-v*` | [0.1.6](https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.6) | Ubuntu 26.04 amd64 / X11；独立 deb，内置助手；Qt 私有 ABI 6.10.2 |
-| Android | `android-v*` | 0.2.2 | 单 APK，装完即用（内置白霜）；Android 6.0+，四个 ABI 各一个包 |
+| Android | `android-v*` | 0.2.7 | 单 APK，装完即用（内置白霜）；Android 6.0+，四个 ABI 各一个包 |
 | 桌面助手 | `companion-v*` | [0.1.13](https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.13) | **不用单独下载**，见下 |
 
 ### 桌面助手随输入法一起装
@@ -93,3 +93,5 @@ Fcitx5 0.1.6 内置已正式通用发布的齐我助手 0.1.13，固定采用同
 助手 0.1.12 的同步内容管理四端统一：Windows 0.2.15、macOS 0.1.2、IBus 0.1.4、Fcitx5 0.1.5 均接入本体执行。请同时升级助手和输入法本体，再使用清理；旧本体会显示升级提示。
 
 助手 0.1.13 更新清理说明：先备份到本机，再删除所选残留。备份不参与 WebDAV 同步，也不会自动删除；旧设备再次同步时，文件可能重新出现。Windows 0.2.16、macOS 0.1.3、IBus 0.1.5、Fcitx5 0.1.6 统一内置该版本。
+
+Android 0.2.7 支持自定义自动同步间隔：在 WebDAV 同步设置中填写分钟数，最小 15 分钟，默认 360 分钟。自动同步开关独立控制启用状态；修改间隔后更新已有后台任务。系统省电策略可能延迟实际执行。旧配置继续使用原有 6 小时周期。
