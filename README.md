@@ -15,7 +15,7 @@ Qiwo Input Method —— 基于 [RIME | 中州韵输入法引擎](https://rime.i
 | macOS | `mac-v*` | 0.1.4 | 压缩包附 `install.sh`；macOS 13.0+，通用二进制（Intel / Apple Silicon） |
 | Linux / IBus | `lin-v*` | 0.1.6 | IBus 引擎；压缩包附 `install.sh`，装到 `/usr` |
 | Linux / Fcitx5 | `fcitx5-v*` | [0.1.7](https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.7) | Ubuntu 26.04 amd64 / X11；独立 deb，内置助手；Qt 私有 ABI 6.10.2 |
-| Android | `android-v*` | 0.2.7 | 单 APK，装完即用（内置白霜）；Android 6.0+，四个 ABI 各一个包 |
+| Android | `android-v*` | 0.2.8 | 单 APK，装完即用（内置白霜）；Android 6.0+，四个 ABI 各一个包 |
 | 桌面助手 | `companion-v*` | [0.1.14](https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.14) | **不用单独下载**，见下 |
 
 ### 桌面助手随输入法一起装
@@ -98,3 +98,6 @@ Android 0.2.7 支持自定义自动同步间隔：在 WebDAV 同步设置中填�
 
 
 助手 0.1.14 与 Windows 0.2.17、macOS 0.1.4、IBus 0.1.6、Fcitx5 0.1.7 接入安全同步：至少 5 秒无输入且无组词/候选状态后导出，网络期间允许输入；只合并实际变化的其他设备学习快照，等待真实完成后确认。同步结束不再无条件完整部署。配置、方案与基础词典的实际本机变更保留为待部署，重启、后续无变化同步、失败和取消都不会误清除；通过查看变更文件、重试合并和立即部署处理。设备备份缓存和未知用途文件保留检查记录。手动部署只清除开始时捕获的变更。
+
+
+Android 0.2.8 采用相同同步规则：安全导出和词库合并均等待至少 5 秒输入空闲，网络期间正常输入，真实合并完成后才确认；同步后不再自动完整部署。待部署文件、待合并快照及各阶段结果重启后保留，提供查看文件、重试合并与“立即部署 Rime”。取消已开始的词库写入会等待安全结束。Android 应用设置仍使用独立的“手动应用”入口；自动同步自定义间隔继续保留。四个 ABI APK 已校验使用原有签名证书，可直接升级。
