@@ -16,15 +16,16 @@ Qiwo Input Method —— 基于 [RIME | 中州韵输入法引擎](https://rime.i
 | Linux / IBus | `lin-v*` | 0.1.6 | IBus 引擎；压缩包附 `install.sh`，装到 `/usr` |
 | Linux / Fcitx5 | `fcitx5-v*` | [0.1.7](https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.7) | Ubuntu 26.04 amd64 / X11；独立 deb，内置助手；Qt 私有 ABI 6.10.2 |
 | Android | `android-v*` | 0.2.8 | 单 APK，装完即用（内置白霜）；Android 6.0+，四个 ABI 各一个包 |
-| 桌面助手 | `companion-v*` | [0.1.14](https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.14) | **不用单独下载**，见下 |
+| 桌面助手 | `companion-v*` | [0.1.15](https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.15) | 内置助手，Windows 可独立更新，见下 |
 
 ### 桌面助手随输入法一起装
 
 `companion-v*` 这个通道是给构建流程用的：Windows / macOS / Linux 的输入法安装包
 都已经把助手打包在里面，装完输入法就有，从输入法托盘菜单的「齐我助手」打开。
 
-单独下 `companion-v*` 里的文件没有用——那是给各端打包时取用的裸产物，
-放到哪里、怎么被输入法找到，都由安装包决定。
+Windows 助手支持在助手内独立检查更新和自更新。若旧版因网络错误或 API 限流无法升级，
+可以使用助手安装器，或关闭助手后将便携版放回原安装位置。macOS、IBus 和 Fcitx5 的
+内置助手随对应输入法安装包分发。各端构建统一锁定共享助手的正式版本与源码提交。
 
 ### 安装
 
@@ -53,8 +54,10 @@ Android 的 APK 全部由同一个证书签名（SHA-256
 | Linux | IBus 面板「检查更新」 | 拉起齐我助手 → 下载安装包 → `pkexec` 提权安装 → 重启 ibus |
 | Android | 设置 → Qiwo → 检查更新 | 直接查 GitHub Releases API 的 `android-v*`，下载 APK 后调起系统安装器；打开设置界面时也会自动检查，每天最多一次 |
 
-齐我助手里的「检查更新」会同时报告助手和本机输入法的版本；由于助手随输入法分发，
-可执行的更新动作永远落在输入法上。
+齐我助手里的「检查更新」会同时报告助手和本机输入法的版本。Windows 可独立更新助手，
+其他平台的内置助手随输入法更新送达。0.1.15 起，助手优先读取公开静态发布索引，并缓存
+查询结果；GitHub Releases API 作为备用，减少共享出口 IP 的 API 限流影响。下载完成后
+校验发布清单、大小和 SHA-256，失败时保留现有助手。
 
 Windows 另有测试通道 `appcast/win-testing.xml`，在注册表
 `HKCU\Software\Qiwo` 下把 `UpdateChannel` 设为 `testing` 启用。
