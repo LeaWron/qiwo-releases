@@ -26,6 +26,11 @@ class UpdateIndexTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'duplicate'):
             build_index([[self.release()], [self.release()]])
 
+    def test_android_previews_are_indexed_with_channel_flag_and_integrity(self):
+        preview = dict(self.release(), tag_name='android-v0.2.9-rc1', prerelease=True)
+        self.assertEqual(build_index([[preview]])['releases'], [preview])
+        self.assertEqual(build_index([[dict(preview, draft=True)]])['releases'], [])
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,4 +1,4 @@
-"""Publish compact metadata for public stable releases, without client-side REST calls."""
+"""Publish stable metadata and opt-in Android previews without client REST calls."""
 import json
 from pathlib import Path
 import subprocess
@@ -9,7 +9,9 @@ def build_index(pages):
     seen = set()
     for page in pages:
         for release in page:
-            if release.get('draft') or release.get('prerelease'):
+            if release.get('draft'):
+                continue
+            if release.get('prerelease') and not release['tag_name'].startswith('android-v'):
                 continue
             tag = release['tag_name']
             if tag in seen:
