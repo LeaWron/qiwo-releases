@@ -2,6 +2,26 @@
   "schema": 1,
   "releases": [
     {
+      "tag_name": "mac-v0.1.5",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/mac-v0.1.5",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "Qiwo-0.1.5-update.tar.gz",
+          "size": 60199286,
+          "digest": "sha256:ab59f740645c0efa1d800c4c5589a4901d69ffecee06d2b39cef854fe9d6222f",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.5/Qiwo-0.1.5-update.tar.gz"
+        },
+        {
+          "name": "Qiwo-macOS-0.1.5.tar.gz",
+          "size": 60204021,
+          "digest": "sha256:b54b3214ac098bcb82520be2a740ff4626aaf4042e431150388f1d1aa3c0d27f",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.5/Qiwo-macOS-0.1.5.tar.gz"
+        }
+      ]
+    },
+    {
       "tag_name": "companion-v0.1.17",
       "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.17",
       "draft": false,
