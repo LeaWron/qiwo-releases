@@ -1,0 +1,1397 @@
+{
+  "schema": 1,
+  "releases": [
+    {
+      "tag_name": "win-v0.2.17",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.17",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.17.0-installer.exe",
+          "size": 44191418,
+          "digest": "sha256:b44ac6505f0b021d92ba91858e12474d4be4401064c114ff9d1176802314a68c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.17/qiwo-0.2.17.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.16",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.16",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.16.0-installer.exe",
+          "size": 44036653,
+          "digest": "sha256:bbdbbae74c80ef088abd392cb842fc36cb3a58c3715dd40ccd982c2195a9a39d",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.16/qiwo-0.2.16.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.15",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.15",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.15.0-installer.exe",
+          "size": 44047136,
+          "digest": "sha256:8abf3c4cd71fc958033f94113cf3972f802460de58d2586697bd578cbda58b3c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.15/qiwo-0.2.15.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "mac-v0.1.4",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/mac-v0.1.4",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "Qiwo-0.1.4-update.tar.gz",
+          "size": 59964430,
+          "digest": "sha256:512416af5a24e806ecc4b6a0e4cd6a42962ab9d2cc06b37aa84fb261c8a06ed0",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.4/Qiwo-0.1.4-update.tar.gz"
+        },
+        {
+          "name": "Qiwo-macOS-0.1.4.tar.gz",
+          "size": 59967500,
+          "digest": "sha256:c6ef1093fccb8b2296c8abcccb9a26be7a7d9626042d38f61f833ae8cb666400",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.4/Qiwo-macOS-0.1.4.tar.gz"
+        }
+      ]
+    },
+    {
+      "tag_name": "mac-v0.1.3",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/mac-v0.1.3",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "Qiwo-0.1.3-update.tar.gz",
+          "size": 59529277,
+          "digest": "sha256:40f4e260dec16eb5f3b8a9b3971813d4851c4dcbd3c4dff1b4bde9af171625de",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.3/Qiwo-0.1.3-update.tar.gz"
+        },
+        {
+          "name": "Qiwo-macOS-0.1.3.tar.gz",
+          "size": 59531989,
+          "digest": "sha256:8ff763b0963030ae03a6141aca9ecb17348aa8b8c4979e2686548db142b3339c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.3/Qiwo-macOS-0.1.3.tar.gz"
+        }
+      ]
+    },
+    {
+      "tag_name": "lin-v0.1.6",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/lin-v0.1.6",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-ibus-0.1.6.tar.gz",
+          "size": 49501984,
+          "digest": "sha256:facd9e0183f2eefb0d05eb0d0d1148b2c8fbd23e41c58d4d0bf5a2bbbcabc1cf",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/lin-v0.1.6/qiwo-ibus-0.1.6.tar.gz"
+        }
+      ]
+    },
+    {
+      "tag_name": "lin-v0.1.5",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/lin-v0.1.5",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-ibus-0.1.5.tar.gz",
+          "size": 49296885,
+          "digest": "sha256:4b6499599835b5060e0927ac062079f45b1e9ed7f873dd3b0083a0762ac62ccd",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/lin-v0.1.5/qiwo-ibus-0.1.5.tar.gz"
+        }
+      ]
+    },
+    {
+      "tag_name": "fcitx5-v0.1.7",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.7",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-fcitx5_0.1.7_amd64.deb",
+          "size": 42103292,
+          "digest": "sha256:4d2e6029805e1ab3a1ca05c0f4f32be18ab79871ccaa03d037f12540341e82e6",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.7/qiwo-fcitx5_0.1.7_amd64.deb"
+        },
+        {
+          "name": "release-SHA256SUMS.txt",
+          "size": 94,
+          "digest": "sha256:b085a466223a918ee97edf233a102de9e0bea653fe730eb1a0b5b8640a6bda8c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.7/release-SHA256SUMS.txt"
+        }
+      ]
+    },
+    {
+      "tag_name": "fcitx5-v0.1.6",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.6",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-fcitx5_0.1.6_amd64.deb",
+          "size": 41817760,
+          "digest": "sha256:68b63adbf318791e90ff1d98bc8d7caecd91873eb0cc75aa5e61183f6dded69a",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.6/qiwo-fcitx5_0.1.6_amd64.deb"
+        },
+        {
+          "name": "release-SHA256SUMS.txt",
+          "size": 94,
+          "digest": "sha256:2344080263c466af5254d206809030a83a83a65fc6941b62cb5e3eab35b90d09",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.6/release-SHA256SUMS.txt"
+        }
+      ]
+    },
+    {
+      "tag_name": "fcitx5-v0.1.5",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.5",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-fcitx5_0.1.5_amd64.deb",
+          "size": 41819006,
+          "digest": "sha256:10eca4803e98c9995da8d4c6ea5e0e0ba525f34d7c33575dc9b996a2eae76251",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.5/qiwo-fcitx5_0.1.5_amd64.deb"
+        },
+        {
+          "name": "release-SHA256SUMS.txt",
+          "size": 94,
+          "digest": "sha256:943f35633ffdc3188050e023a1b473c4d1281a9b934de56683a3060e995c6808",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.5/release-SHA256SUMS.txt"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.14",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.14",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "companion-manifest.json",
+          "size": 1070,
+          "digest": "sha256:1c3fdb6c333677262869c2f31b8429bbe7618d82475fca7cf6c0ecc46d16719a",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.14/companion-manifest.json"
+        },
+        {
+          "name": "qiwo-companion_0.1.14_amd64.AppImage",
+          "size": 83651064,
+          "digest": "sha256:b53f8e4adf1543595c97ca5c1d9c08d20931da4306b9d402d698a756cc16466b",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.14/qiwo-companion_0.1.14_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.14_amd64.deb",
+          "size": 5174252,
+          "digest": "sha256:8ea692025cdc60461d86b8c226a0315ed3c52598c49cd032bbf1436a2d3c0f3d",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.14/qiwo-companion_0.1.14_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.14_macos-app.tar.gz",
+          "size": 7893231,
+          "digest": "sha256:98430c621d6547da1035916eca5e64a5d421df42b52c79e1cb8d84b08e67804f",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.14/qiwo-companion_0.1.14_macos-app.tar.gz"
+        },
+        {
+          "name": "qiwo-companion_0.1.14_portable.exe",
+          "size": 13075968,
+          "digest": "sha256:eb0ff9943f5b04b88a768cc9c5efadbfa725e0bab84fc1e9089201b7413196bf",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.14/qiwo-companion_0.1.14_portable.exe"
+        },
+        {
+          "name": "qiwo-companion_0.1.14_universal.dmg",
+          "size": 7989844,
+          "digest": "sha256:a9eefe2c44d466f29637622d461f71bf66599b40eba5d870ca8a3a9a5ea50550",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.14/qiwo-companion_0.1.14_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.14_x64-setup.exe",
+          "size": 3338795,
+          "digest": "sha256:b82801c5459f9e7b41295d04835d61c8ec1a9bf74b3a2788b168a9ee6cab8149",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.14/qiwo-companion_0.1.14_x64-setup.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.13",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.13",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "companion-manifest.json",
+          "size": 1070,
+          "digest": "sha256:415d317ce241b7968d2bc196329080203b557f0cc97ae2b940a0489adc63258c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.13/companion-manifest.json"
+        },
+        {
+          "name": "qiwo-companion_0.1.13_amd64.AppImage",
+          "size": 83593720,
+          "digest": "sha256:eab9c251c2ce69cb7e8798a89bdc20df3f2cee60ca4c688664f25ca30705a25e",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.13/qiwo-companion_0.1.13_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.13_amd64.deb",
+          "size": 5106854,
+          "digest": "sha256:bdece29f7f567548089508b45257aae32b5c7ff6490c4aa7795b2221a9568d9d",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.13/qiwo-companion_0.1.13_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.13_macos-app.tar.gz",
+          "size": 7725213,
+          "digest": "sha256:c394fc9ec41c11f2498fcb0b4382332518e82d6fb4c85288d64e4d2d3309554a",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.13/qiwo-companion_0.1.13_macos-app.tar.gz"
+        },
+        {
+          "name": "qiwo-companion_0.1.13_portable.exe",
+          "size": 12795392,
+          "digest": "sha256:5f758228729746d627b7c387e708d626cc75b8663073c3f11307298e13d3bac6",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.13/qiwo-companion_0.1.13_portable.exe"
+        },
+        {
+          "name": "qiwo-companion_0.1.13_universal.dmg",
+          "size": 7821024,
+          "digest": "sha256:0e7dae2948dd5ee2fe7f294013b71c2e96a89d46745a0d8b1418a33a5cbc5541",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.13/qiwo-companion_0.1.13_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.13_x64-setup.exe",
+          "size": 3279295,
+          "digest": "sha256:c454155474b18181df8c7753c5cac5ded9121d578aad643a1cbbb2b76c4f49a4",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.13/qiwo-companion_0.1.13_x64-setup.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "android-v0.2.8",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/android-v0.2.8",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "com.qiwo.inputmethod-0.2.8-arm64-v8a-release.apk",
+          "size": 89145430,
+          "digest": "sha256:11c4f04a96abdaaf0648fd49184f55accd0dfaedda105a3aa1e2469f4b902c61",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.8/com.qiwo.inputmethod-0.2.8-arm64-v8a-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.8-armeabi-v7a-release.apk",
+          "size": 88126603,
+          "digest": "sha256:dd5f28bfa52918736d6e631b1def3f3f3d8f158f1ff50df13b73f745e6898297",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.8/com.qiwo.inputmethod-0.2.8-armeabi-v7a-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.8-x86-release.apk",
+          "size": 89308385,
+          "digest": "sha256:d4ce2c219cbae3722e5ed9584fcbbccaa7360ecfd7454730948052582d4a2489",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.8/com.qiwo.inputmethod-0.2.8-x86-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.8-x86_64-release.apk",
+          "size": 89211260,
+          "digest": "sha256:3d7b803cf2fd94de141a5b8d5a43b1d530d03f48ee6a154073e238143eac6114",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.8/com.qiwo.inputmethod-0.2.8-x86_64-release.apk"
+        }
+      ]
+    },
+    {
+      "tag_name": "android-v0.2.7",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/android-v0.2.7",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "com.qiwo.inputmethod-0.2.7-arm64-v8a-release.apk",
+          "size": 89124692,
+          "digest": "sha256:316baa26dd1f870d56f3682f37a135ad3e6b02de4e7df10b34c5ddac7eb38220",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.7/com.qiwo.inputmethod-0.2.7-arm64-v8a-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.7-armeabi-v7a-release.apk",
+          "size": 88105490,
+          "digest": "sha256:8fc6c426f4d76a7fa342ea48e338b99591788946808439fe9d400a43b6ce1545",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.7/com.qiwo.inputmethod-0.2.7-armeabi-v7a-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.7-x86-release.apk",
+          "size": 89285220,
+          "digest": "sha256:77eca39d31e5a0d71e83d2bae1bc673ee9a5b2f5005b5399d7ba46412db29d49",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.7/com.qiwo.inputmethod-0.2.7-x86-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.7-x86_64-release.apk",
+          "size": 89187086,
+          "digest": "sha256:bb5b885495f818063062258159a6d1b936880c827165567f7af02f9aa935572d",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.7/com.qiwo.inputmethod-0.2.7-x86_64-release.apk"
+        }
+      ]
+    },
+    {
+      "tag_name": "mac-v0.1.2",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/mac-v0.1.2",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "Qiwo-0.1.2-update.tar.gz",
+          "size": 59527238,
+          "digest": "sha256:3cc4e2c48e7c417e494620525cf0b1d92f3862f6a3c80703736eab9cef642713",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.2/Qiwo-0.1.2-update.tar.gz"
+        },
+        {
+          "name": "Qiwo-macOS-0.1.2.tar.gz",
+          "size": 59531276,
+          "digest": "sha256:d6e43c955ca0de7b8341f72beaaea53b54017bd2b213174014e4aa0d0d88ec6d",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.2/Qiwo-macOS-0.1.2.tar.gz"
+        }
+      ]
+    },
+    {
+      "tag_name": "lin-v0.1.4",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/lin-v0.1.4",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-ibus-0.1.4.tar.gz",
+          "size": 49297663,
+          "digest": "sha256:3a7ee2b736952a244791b68bd68afc244e758d9a0ada8d63c3c1d6d33298bb8d",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/lin-v0.1.4/qiwo-ibus-0.1.4.tar.gz"
+        }
+      ]
+    },
+    {
+      "tag_name": "fcitx5-v0.1.4",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.4",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-fcitx5_0.1.4_amd64.deb",
+          "size": 41764304,
+          "digest": "sha256:ad8eaee2c59d349c2cd6b5240f3566a8455f587af1c326b4bff0ea4327bce0f3",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.4/qiwo-fcitx5_0.1.4_amd64.deb"
+        },
+        {
+          "name": "release-SHA256SUMS.txt",
+          "size": 94,
+          "digest": "sha256:1eed1bbf6da013da78c35fbca1a4c04ff373557aa05a1056361de32a8283ca62",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.4/release-SHA256SUMS.txt"
+        }
+      ]
+    },
+    {
+      "tag_name": "fcitx5-v0.1.3",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.3",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-fcitx5_0.1.3_amd64.deb",
+          "size": 41750790,
+          "digest": "sha256:3e78f9d39009f2a330abf269acc12951086551becf9f54306628739719c95f58",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.3/qiwo-fcitx5_0.1.3_amd64.deb"
+        },
+        {
+          "name": "release-SHA256SUMS.txt",
+          "size": 94,
+          "digest": "sha256:faa67193d82f30bcc16429c81f358c69644a06ec7446e7b31e35e02aa36a3aaf",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.3/release-SHA256SUMS.txt"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.12",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.12",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "companion-manifest.json",
+          "size": 1070,
+          "digest": "sha256:b5ba6bae60875344ce78b4050ccbbdee45b172ef23c5f4e1614fa63a21aeca70",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.12/companion-manifest.json"
+        },
+        {
+          "name": "qiwo-companion_0.1.12_amd64.AppImage",
+          "size": 83593720,
+          "digest": "sha256:4a737a98cf2aad1b09274ebbf86161728cbcdabc51c0125d2c1829ad2f748c52",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.12/qiwo-companion_0.1.12_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.12_amd64.deb",
+          "size": 5106112,
+          "digest": "sha256:f62ae9be3687c94e97f531ea55ae389757b8ed141a4a500f2768e8c040af4dd3",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.12/qiwo-companion_0.1.12_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.12_macos-app.tar.gz",
+          "size": 7723578,
+          "digest": "sha256:1fadb16d4939f28b9d72eba4f99daaa105f3e9c4be0ad34bb34a7df5dc7a555f",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.12/qiwo-companion_0.1.12_macos-app.tar.gz"
+        },
+        {
+          "name": "qiwo-companion_0.1.12_portable.exe",
+          "size": 12795392,
+          "digest": "sha256:17445e9bb5907df32c8ac19ae1f431c647c486525174ddcf3eb63a0619369dd6",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.12/qiwo-companion_0.1.12_portable.exe"
+        },
+        {
+          "name": "qiwo-companion_0.1.12_universal.dmg",
+          "size": 7818918,
+          "digest": "sha256:8654bad90dafd3a51f253d1eb5b63ec2d9b639ee33f044be5444c886faca07e9",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.12/qiwo-companion_0.1.12_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.12_x64-setup.exe",
+          "size": 3280109,
+          "digest": "sha256:742384682f6a500ecdcce6dd9261678db06f6a8b405287d373a2dd5254d1def0",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.12/qiwo-companion_0.1.12_x64-setup.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.11",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.11",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "companion-manifest.json",
+          "size": 1070,
+          "digest": "sha256:1506eb67478b89c178e4409a60865809a1b77b9301939a8c476a56f87d1fdfb4",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.11/companion-manifest.json"
+        },
+        {
+          "name": "qiwo-companion_0.1.11_amd64.AppImage",
+          "size": 83560952,
+          "digest": "sha256:369d1b0938d2c44deeafc3de4d20c8266db00bed5aab987fa082ea79cee49f1b",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.11/qiwo-companion_0.1.11_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.11_amd64.deb",
+          "size": 5073694,
+          "digest": "sha256:8a25caa01e2b183f5daca7bce7433f64a7bff3c55ef4d1e932f946d9853061eb",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.11/qiwo-companion_0.1.11_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.11_macos-app.tar.gz",
+          "size": 7496285,
+          "digest": "sha256:67055f78834b14645a0311a4066bdaa7107edc9cf8b7e26a4f0590d2385c5f79",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.11/qiwo-companion_0.1.11_macos-app.tar.gz"
+        },
+        {
+          "name": "qiwo-companion_0.1.11_portable.exe",
+          "size": 12464128,
+          "digest": "sha256:b942de7c34b106481246ac29c09315a314d6d4939e8734de4613cfc1bf582389",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.11/qiwo-companion_0.1.11_portable.exe"
+        },
+        {
+          "name": "qiwo-companion_0.1.11_universal.dmg",
+          "size": 7596576,
+          "digest": "sha256:cf0e2e17ab92b582b6fbfa279dad817b61bbe33504b87bf2b7690a7f15720dec",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.11/qiwo-companion_0.1.11_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.11_x64-setup.exe",
+          "size": 3203784,
+          "digest": "sha256:9cc6dbf615eaf9b94bf53f6b6c176e566a5d4a58b10c77f8f7fcae2d95409157",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.11/qiwo-companion_0.1.11_x64-setup.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "fcitx5-v0.1.2",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.2",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-fcitx5_0.1.2_amd64.deb",
+          "size": 41752108,
+          "digest": "sha256:b8056933a791ea4ca5a966f13988af07db7b57ada5f5cac9d49bb681ecc2fbba",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.2/qiwo-fcitx5_0.1.2_amd64.deb"
+        },
+        {
+          "name": "release-SHA256SUMS.txt",
+          "size": 94,
+          "digest": "sha256:eca040d5da88df852fb8a5318fcf02d55c07f6f13c424086aa98678aaae04e2c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.2/release-SHA256SUMS.txt"
+        }
+      ]
+    },
+    {
+      "tag_name": "fcitx5-v0.1.1",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.1",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-fcitx5_0.1.1_amd64.deb",
+          "size": 41730110,
+          "digest": "sha256:ea295efd3fcb370bdf33a11fd8f1f4e60d00ef8d59831a1fd3ef75e9171081d5",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.1/qiwo-fcitx5_0.1.1_amd64.deb"
+        },
+        {
+          "name": "release-SHA256SUMS.txt",
+          "size": 94,
+          "digest": "sha256:053738799f014d625ac87218e97f749ca9677ff2efb4363af5dc9056ffedc7e8",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.1/release-SHA256SUMS.txt"
+        }
+      ]
+    },
+    {
+      "tag_name": "lin-v0.1.3",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/lin-v0.1.3",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-ibus-0.1.3.tar.gz",
+          "size": 48161539,
+          "digest": "sha256:f591ea0332ab89c831dc7d11f70930a54e493a58d3e692e63f804a0d68127203",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/lin-v0.1.3/qiwo-ibus-0.1.3.tar.gz"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size": 89,
+          "digest": "sha256:4e31c88058b31e2c4c8163f85d4efaedaddbf97b2a4e2f01ed235aa0d2a1fc3f",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/lin-v0.1.3/SHA256SUMS"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.14",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.14",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.14.0-installer.exe",
+          "size": 42084155,
+          "digest": "sha256:04a71e9e9346d92d39ce42347e47f4efad32e1d30fc4fd55959ed03426d07f38",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.14/qiwo-0.2.14.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.13",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.13",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.13.0-installer.exe",
+          "size": 42068187,
+          "digest": "sha256:e9c099d29c62d936ca4445a972e7f0e8284deec0688eddfdba9176f4ae41c4af",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.13/qiwo-0.2.13.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.12",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.12",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.12.0-installer.exe",
+          "size": 42072523,
+          "digest": "sha256:a60fb607dcfe229886895e61dadec2c07be20e7391734668939f2dffdadb127b",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.12/qiwo-0.2.12.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "android-v0.2.6",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/android-v0.2.6",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "com.qiwo.inputmethod-0.2.6-arm64-v8a-release.apk",
+          "size": 89130317,
+          "digest": "sha256:b836ec7311ef340b9cd64fa7cc7f015eb9a6cb7a37f2c4cbd0985d24f1044962",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.6/com.qiwo.inputmethod-0.2.6-arm64-v8a-release.apk"
+        }
+      ]
+    },
+    {
+      "tag_name": "android-v0.2.5",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/android-v0.2.5",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "com.qiwo.inputmethod-0.2.5-arm64-v8a-release.apk",
+          "size": 89130009,
+          "digest": "sha256:dfc1f13c95978ecd2a80a92ec68c3785f6862cc7a47f8049eeee9800f80de3b5",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.5/com.qiwo.inputmethod-0.2.5-arm64-v8a-release.apk"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.11",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.11",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.11.0-installer.exe",
+          "size": 42027011,
+          "digest": "sha256:02c33b4caba66c8eebb7b6d86a11914d43ad365632917ae2ea4dd0f2fdfc1837",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.11/qiwo-0.2.11.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.10",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.10",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.10.0-installer.exe",
+          "size": 41907616,
+          "digest": "sha256:8f1a9df95440d772d27b8f5bf4bccc6b4e7ae58e049451d0d97667925a57d738",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.10/qiwo-0.2.10.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.8",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.8",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "BUILD-INFO-linux.json",
+          "size": 616,
+          "digest": "sha256:6f98bbba0e48279f009d9f499d8a546213bb609a365137f0a3e68aa2a2c3bcf9",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.8/BUILD-INFO-linux.json"
+        },
+        {
+          "name": "qiwo-companion_0.1.8_amd64.AppImage",
+          "size": 84625912,
+          "digest": "sha256:56ec2487f2c7458ab2c08210af8e00681349797597fc1ad08066f348c02f4baa",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.8/qiwo-companion_0.1.8_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.8_amd64.deb",
+          "size": 4617260,
+          "digest": "sha256:7e78fcb4b9476c7ed37e0d816deda07209f3c0047ce8046432a76a9bf0c00b90",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.8/qiwo-companion_0.1.8_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.8_portable.exe",
+          "size": 11595776,
+          "digest": "sha256:391b37056b9489ac0da820f829adf6b1b50bfac30138dbe17e68e0cd46896a48",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.8/qiwo-companion_0.1.8_portable.exe"
+        },
+        {
+          "name": "SHA256SUMS-linux.txt",
+          "size": 199,
+          "digest": "sha256:e0908eddad98805c625bd6ef3976d4914ce682b08b2bcfe7eb28bcc6e1d9b0e5",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.8/SHA256SUMS-linux.txt"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.9",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.9",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.9.0-installer.exe",
+          "size": 41862626,
+          "digest": "sha256:439ed3875a2249356f12c29b2884c90d8ec11b8de35b953dbb150b0356c76325",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.9/qiwo-0.2.9.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.7",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.7",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-companion_0.1.7_amd64.AppImage",
+          "size": 79510008,
+          "digest": "sha256:bd0ff1cab1a75479dada7a962540cd81e9c06cf309894ae766bdd736d19dab9c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.7/qiwo-companion_0.1.7_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.7_amd64.deb",
+          "size": 4614666,
+          "digest": "sha256:d4165cb88f2d01594ba274dfa9decf24984f9a15646d5ae0b0cbc04ed9df9ef1",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.7/qiwo-companion_0.1.7_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.7_macos-app.tar.gz",
+          "size": 6970818,
+          "digest": "sha256:9980ce9401f0cb3aefb3346a62514ee7ad0356005f65d8f7568a3d2109e3ef50",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.7/qiwo-companion_0.1.7_macos-app.tar.gz"
+        },
+        {
+          "name": "qiwo-companion_0.1.7_portable.exe",
+          "size": 11636736,
+          "digest": "sha256:e41894676a0b651db7ce85ca692188965f66b1a0fab94a714ad40d58bf8c8979",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.7/qiwo-companion_0.1.7_portable.exe"
+        },
+        {
+          "name": "qiwo-companion_0.1.7_universal.dmg",
+          "size": 7071913,
+          "digest": "sha256:a30d6d02d3711f1794d5f628cf97896b1774c83baae7df862c810f18d0fbe7ad",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.7/qiwo-companion_0.1.7_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.7_x64-setup.exe",
+          "size": 2989357,
+          "digest": "sha256:21eb6a8d92ce3fba1d0f394dc3c26188637c27a67d7ba74979da63f9a18025d0",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.7/qiwo-companion_0.1.7_x64-setup.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.6",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.6",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-companion_0.1.6_amd64.AppImage",
+          "size": 79505912,
+          "digest": "sha256:0a4a5dfb026724e31fd032398db187417b9e1ffc585625e4e3ed28de297a7eac",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.6/qiwo-companion_0.1.6_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.6_amd64.deb",
+          "size": 4614546,
+          "digest": "sha256:ad1917e22fa517e31b7ecea8636310d3baa59e8574d10b8ef7927cd8020537c6",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.6/qiwo-companion_0.1.6_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.6_macos-app.tar.gz",
+          "size": 6967957,
+          "digest": "sha256:c8d6ec0497fcda325dd911f1c92617b3f182dac664732dd2e673d6329e382697",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.6/qiwo-companion_0.1.6_macos-app.tar.gz"
+        },
+        {
+          "name": "qiwo-companion_0.1.6_portable.exe",
+          "size": 11627520,
+          "digest": "sha256:828fd5ba7c2ab02aba31531859e9db1c7be45eac9057173e06ec93472808338f",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.6/qiwo-companion_0.1.6_portable.exe"
+        },
+        {
+          "name": "qiwo-companion_0.1.6_universal.dmg",
+          "size": 7070869,
+          "digest": "sha256:f8976a0fa4160999dd007427990eb848d9f128c0b7d83e3a96463eab705556b7",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.6/qiwo-companion_0.1.6_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.6_x64-setup.exe",
+          "size": 2987767,
+          "digest": "sha256:de7843452668351683f0336aa36aacfaad678d7b3fca87da4799f230d4a0075a",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.6/qiwo-companion_0.1.6_x64-setup.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.8",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.8",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.8.0-installer.exe",
+          "size": 41487071,
+          "digest": "sha256:05a0e6bec6510c1d712dc94d2ee6fd3d97443cfccb2c349b9460b7c1b28197f5",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.8/qiwo-0.2.8.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "android-v0.2.4",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/android-v0.2.4",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "com.qiwo.inputmethod-0.2.4-arm64-v8a-release.apk",
+          "size": 88925147,
+          "digest": "sha256:b067fd90397df281d73c273715b0ee0297a97557c9c28ad29c4e185053bbfeff",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.4/com.qiwo.inputmethod-0.2.4-arm64-v8a-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.4-armeabi-v7a-release.apk",
+          "size": 87905927,
+          "digest": "sha256:0e72e3a3eed67896db52098aa6e7cea383fb85d5ca28d1eedd4ff14c69b97b40",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.4/com.qiwo.inputmethod-0.2.4-armeabi-v7a-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.4-x86-release.apk",
+          "size": 89085663,
+          "digest": "sha256:48fb26f4218a155f958c0a41ff7e590eea4a9d51a5069238adf0958c2916087e",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.4/com.qiwo.inputmethod-0.2.4-x86-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.4-x86_64-release.apk",
+          "size": 88987528,
+          "digest": "sha256:c47151556b3d17edd4430c9b4ed941593a5a36e5dd70236b08573f1f18db1f26",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.4/com.qiwo.inputmethod-0.2.4-x86_64-release.apk"
+        }
+      ]
+    },
+    {
+      "tag_name": "android-v0.2.3",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/android-v0.2.3",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "com.qiwo.inputmethod-0.2.3-arm64-v8a-release.apk",
+          "size": 88924208,
+          "digest": "sha256:2d34b79cad9a2e9ffa07de5720d382e55011727aa678bbeeea2c05644a91e161",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.3/com.qiwo.inputmethod-0.2.3-arm64-v8a-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.3-armeabi-v7a-release.apk",
+          "size": 87904994,
+          "digest": "sha256:8a6b5b4e579694765a0e4c7cc0bc276d7e2e8842375da18de85dd2dfbbe8fdbf",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.3/com.qiwo.inputmethod-0.2.3-armeabi-v7a-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.3-x86-release.apk",
+          "size": 89084729,
+          "digest": "sha256:4e48ed159ec319e87587730448cc21fd3b6c142fab453aadf0cc586fbd51c624",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.3/com.qiwo.inputmethod-0.2.3-x86-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.3-x86_64-release.apk",
+          "size": 88986603,
+          "digest": "sha256:7ff78e288901849a7d235834d1789b22873709b7e6c6fbf687b2f6e3a54a352b",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.3/com.qiwo.inputmethod-0.2.3-x86_64-release.apk"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.7",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.7",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.7.0-installer.exe",
+          "size": 41503249,
+          "digest": "sha256:eeacd570b5794eb4102272c26cc713ce3804e632c78662f0f7def6f48f7c1fa2",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.7/qiwo-0.2.7.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.6",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.6",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.6.0-installer.exe",
+          "size": 41503538,
+          "digest": "sha256:7604fefd2ed739d1c093755ba5f3827cd3e067dd44256ae8e13531225840c612",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.6/qiwo-0.2.6.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.5",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.5",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.5.0-installer.exe",
+          "size": 41509249,
+          "digest": "sha256:d53c47f98a5c9750bfc8e74163916ae67830c1979e2fb47e958de92be05fb791",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.5/qiwo-0.2.5.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.4",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.4",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.4.0-installer.exe",
+          "size": 41505469,
+          "digest": "sha256:acbe6d464fc38d075d2e7037d8a8aea40c22e3956bf0252cf06e2c11cc482989",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.4/qiwo-0.2.4.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.3",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.3",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.3.0-installer.exe",
+          "size": 41502819,
+          "digest": "sha256:97493b67ca66829f9b3781a9f8d5b96ef9a07dc8b69a034556fd28e1a57811b1",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.3/qiwo-0.2.3.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "mac-v0.1.1",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/mac-v0.1.1",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "Qiwo-0.1.1-update.tar.gz",
+          "size": 57452218,
+          "digest": "sha256:c05bda74851c65464651c138f410603a39c5e41596c827f4f0440da0bc3ee8dc",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.1/Qiwo-0.1.1-update.tar.gz"
+        },
+        {
+          "name": "Qiwo-macOS-0.1.1.tar.gz",
+          "size": 57459014,
+          "digest": "sha256:8a839a2f84fdae1fb19484e9210db6bc820322d83cf7f3470864f959f71fee02",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.1/Qiwo-macOS-0.1.1.tar.gz"
+        }
+      ]
+    },
+    {
+      "tag_name": "mac-v0.1.0",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/mac-v0.1.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "Qiwo-0.1.0-update.tar.gz",
+          "size": 57424033,
+          "digest": "sha256:3df2be6f366a51c671679d5e9f5bacfb469da4f4b7996280bbe4bef8522af8bc",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.0/Qiwo-0.1.0-update.tar.gz"
+        },
+        {
+          "name": "Qiwo-macOS-0.1.0.tar.gz",
+          "size": 57429636,
+          "digest": "sha256:7ed728fe925ae9395c0f77010960aeb560faf0e111bdf80a0e5b38ba300ff88a",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/mac-v0.1.0/Qiwo-macOS-0.1.0.tar.gz"
+        }
+      ]
+    },
+    {
+      "tag_name": "lin-v0.1.2",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/lin-v0.1.2",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-ibus-0.1.2.tar.gz",
+          "size": 47867097,
+          "digest": "sha256:4bfd9852fa9b5c0d65af0be2ed5d00a1048f6d5f11852eb071041e11dc47b83a",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/lin-v0.1.2/qiwo-ibus-0.1.2.tar.gz"
+        }
+      ]
+    },
+    {
+      "tag_name": "lin-v0.1.1",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/lin-v0.1.1",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-ibus-0.1.1.tar.gz",
+          "size": 46888965,
+          "digest": "sha256:22f26da61a88ffafd4e56227143746d399ae86c62081899d746afba82e240d7f",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/lin-v0.1.1/qiwo-ibus-0.1.1.tar.gz"
+        }
+      ]
+    },
+    {
+      "tag_name": "lin-v0.1.0",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/lin-v0.1.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-ibus-0.1.0.tar.gz",
+          "size": 46877503,
+          "digest": "sha256:36238055c6bf1fb4ed79af0ad51eabecb8f77ca0fd7ec5be44ca429504845394",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/lin-v0.1.0/qiwo-ibus-0.1.0.tar.gz"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.5",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.5",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-companion_0.1.5_amd64.AppImage",
+          "size": 79493624,
+          "digest": "sha256:fcf8aa62635ce85330afe31ad2bfbbbac5ba219acda6b506194f0ebbcd7a8257",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.5/qiwo-companion_0.1.5_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.5_amd64.deb",
+          "size": 4603940,
+          "digest": "sha256:3bc460a53d0da363f93e92559e85de437e48137c94f7ac7e137e35aa463d5b90",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.5/qiwo-companion_0.1.5_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.5_macos-app.tar.gz",
+          "size": 6971097,
+          "digest": "sha256:50e6fd21c4bafe80a557cdb54d3b78bd5e5cf547f3ccedc26b120ddfc9b01dc3",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.5/qiwo-companion_0.1.5_macos-app.tar.gz"
+        },
+        {
+          "name": "qiwo-companion_0.1.5_portable.exe",
+          "size": 11556352,
+          "digest": "sha256:b9beed2f954e795567bf420505217c5a74d4ee65de3ce0c534fd31f379cb5b37",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.5/qiwo-companion_0.1.5_portable.exe"
+        },
+        {
+          "name": "qiwo-companion_0.1.5_universal.dmg",
+          "size": 7069718,
+          "digest": "sha256:784e916cbe8dd403a0aa7becedaf387c7c6c75513623e6c65d8669ca7225ff7c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.5/qiwo-companion_0.1.5_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.5_x64-setup.exe",
+          "size": 2972650,
+          "digest": "sha256:cb98cb5aeab96aa1dbb36c4fbed86f6a573f718b65c32fc1b314953ad18c857a",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.5/qiwo-companion_0.1.5_x64-setup.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.4",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.4",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-companion_0.1.4_amd64.AppImage",
+          "size": 78604792,
+          "digest": "sha256:b87654836941b1554ab2744b59288211d725a644b79ec84507b6a736c25ddd41",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.4/qiwo-companion_0.1.4_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.4_amd64.deb",
+          "size": 3603372,
+          "digest": "sha256:37a10808750fe11c5585e16df8866f2aec9234a6e33e8f4120f0fc0884305156",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.4/qiwo-companion_0.1.4_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.4_macos-app.tar.gz",
+          "size": 6968659,
+          "digest": "sha256:08eddac53ccf424a4b4536475423313e30dc13bb17e221a1d74a8a55cd9c5003",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.4/qiwo-companion_0.1.4_macos-app.tar.gz"
+        },
+        {
+          "name": "qiwo-companion_0.1.4_portable.exe",
+          "size": 11556352,
+          "digest": "sha256:a068d33191a571234d154e65d843814cea913745a669727bd50bb9f1d8e71962",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.4/qiwo-companion_0.1.4_portable.exe"
+        },
+        {
+          "name": "qiwo-companion_0.1.4_universal.dmg",
+          "size": 7068968,
+          "digest": "sha256:989367e6fdc3ec57cda06b0e17c31377e565803f154e97f6a6c1eaeb1284d3f2",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.4/qiwo-companion_0.1.4_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.4_x64-setup.exe",
+          "size": 2973533,
+          "digest": "sha256:ba5cdecad03bb0d461e7b3206e9fde8f3fa2f0d6949eefb1f6817b4140fbba90",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.4/qiwo-companion_0.1.4_x64-setup.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.3",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.3",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-companion_0.1.3_amd64.AppImage",
+          "size": 78588408,
+          "digest": "sha256:0e41c82809402f08ea939bd2eca965879add12f5c700f0c0b262eaa492b32727",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.3/qiwo-companion_0.1.3_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.3_amd64.deb",
+          "size": 3594308,
+          "digest": "sha256:9c679b0d2d626e14bc25004a297f920aaded6fdeb7e7cb027520bf0b2f1cbc3f",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.3/qiwo-companion_0.1.3_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.3_macos-app.tar.gz",
+          "size": 6943171,
+          "digest": "sha256:f8cd009a17df87cdd68a641ce7b049168e9e0d6ba88c5569d413437c98fdd3e1",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.3/qiwo-companion_0.1.3_macos-app.tar.gz"
+        },
+        {
+          "name": "qiwo-companion_0.1.3_portable.exe",
+          "size": 11530240,
+          "digest": "sha256:6f4a47acbdfa9a1fba342387aec6d4f63ab70e37329455a8285fc08c36a77603",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.3/qiwo-companion_0.1.3_portable.exe"
+        },
+        {
+          "name": "qiwo-companion_0.1.3_universal.dmg",
+          "size": 7041841,
+          "digest": "sha256:c053c9275c01e4d0fdbe556a1b24bb395fb82879ce7d2f7801dddb70d2594833",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.3/qiwo-companion_0.1.3_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.3_x64-setup.exe",
+          "size": 2966094,
+          "digest": "sha256:28d9234805bd32a5af95ed062f77b13441887eae33beb17e3e430db30d7f952e",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.3/qiwo-companion_0.1.3_x64-setup.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.2",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.2",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-companion_0.1.2_amd64.AppImage",
+          "size": 78588408,
+          "digest": "sha256:1c4094e186b95c2ebe2d18d92eccc3e1090761c7cf419a6aac6f5c636f3a2b47",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.2/qiwo-companion_0.1.2_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.2_amd64.deb",
+          "size": 3595922,
+          "digest": "sha256:44578c34a5bf85a1139dca42855d16ac505f52175b982e5b50bbfefd4cc73ece",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.2/qiwo-companion_0.1.2_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.2_portable.exe",
+          "size": 11530752,
+          "digest": "sha256:9d365675dbf828014ebdd86513decade21190c6c1c9612c65471406e4b01d42f",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.2/qiwo-companion_0.1.2_portable.exe"
+        },
+        {
+          "name": "qiwo-companion_0.1.2_universal.dmg",
+          "size": 7042726,
+          "digest": "sha256:ae1823fae8ab2378084b38516705fdd7c2f1474ba22b50531ba3a67095c16623",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.2/qiwo-companion_0.1.2_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.2_x64-setup.exe",
+          "size": 2967552,
+          "digest": "sha256:6c0d60caaed0ec655bef53d4ea328c3933be86aecf7888fbe84b329ec72a5365",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.2/qiwo-companion_0.1.2_x64-setup.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "android-v0.2.2",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/android-v0.2.2",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "com.qiwo.inputmethod-0.2.2-arm64-v8a-release.apk",
+          "size": 88924191,
+          "digest": "sha256:40838d32680725e2b4c8ae754ac8e96168f12f6a349066cd4b4fe49dfa32cfca",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.2/com.qiwo.inputmethod-0.2.2-arm64-v8a-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.2-armeabi-v7a-release.apk",
+          "size": 87905000,
+          "digest": "sha256:fc8dc1364175463d845e161644aab89a84f45f7fef841ad26c7028a4af8206b7",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.2/com.qiwo.inputmethod-0.2.2-armeabi-v7a-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.2-x86-release.apk",
+          "size": 89084741,
+          "digest": "sha256:ba5f0acd3680986ccfc99531a6aa9e1da55f7dc2b679a7fccc3aba98ee810029",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.2/com.qiwo.inputmethod-0.2.2-x86-release.apk"
+        },
+        {
+          "name": "com.qiwo.inputmethod-0.2.2-x86_64-release.apk",
+          "size": 88986596,
+          "digest": "sha256:692ddd66d41eed79729045331e980f4f651d3d213b9c01ea0f3c6237be7e384f",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.2/com.qiwo.inputmethod-0.2.2-x86_64-release.apk"
+        }
+      ]
+    },
+    {
+      "tag_name": "android-v0.2.1",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/android-v0.2.1",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "com.qiwo.inputmethod-0.2.1-arm64-v8a-release.apk",
+          "size": 88933820,
+          "digest": "sha256:45e01642ff68b4418071608475ce95ecd4064bd675f06b3f0c830c7f3a416a47",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.1/com.qiwo.inputmethod-0.2.1-arm64-v8a-release.apk"
+        }
+      ]
+    },
+    {
+      "tag_name": "android-v0.2.0",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/android-v0.2.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "com.qiwo.inputmethod-0.2.0-arm64-v8a-release.apk",
+          "size": 88926710,
+          "digest": "sha256:7e841d7c6b9db249e193096890f8ecc311dbac6cc9595a52de3d928e1e592a4f",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/android-v0.2.0/com.qiwo.inputmethod-0.2.0-arm64-v8a-release.apk"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.2",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.2",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.2.0-installer.exe",
+          "size": 41499399,
+          "digest": "sha256:b25c3466a757493f7db3590b10b4cdbcda07c2a931092c93527cf86977c555b9",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.2/qiwo-0.2.2.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.1",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.1",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.1.0-installer.exe",
+          "size": 41485464,
+          "digest": "sha256:9cfd7b951e9af8e903ce0fefa70b9c4d56be2ce64cd65c6fc6fa77715570a3c1",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.1/qiwo-0.2.1.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.2.0",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.0.0-installer.exe",
+          "size": 84363430,
+          "digest": "sha256:b02d051d40701aea66d43d4d1be22ee15d7851a4e991f4346f1660644d1cdff1",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.0/qiwo-0.2.0.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "win-v0.1.0",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.1.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.1.0.0-installer.exe",
+          "size": 83107730,
+          "digest": "sha256:883ffbd36b28e758ff0907da413dbfd506385896c2e5e64a895ef3258949130c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.1.0/qiwo-0.1.0.0-installer.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.1",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.1",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-companion_0.1.1_amd64.AppImage",
+          "size": 78596600,
+          "digest": "sha256:a5c8727906d793c7a9532062e6a7c47177c7ad0530ecb759463042c396978b1b",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.1/qiwo-companion_0.1.1_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.1_amd64.deb",
+          "size": 3590174,
+          "digest": "sha256:3535f0ca09f46678370b49beb27c092f2d6b8d98b515e88f2d12107140b3af7a",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.1/qiwo-companion_0.1.1_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.1_portable.exe",
+          "size": 11510272,
+          "digest": "sha256:fd16d35c63c8df4d062e285cccec7f14427b7f19a3a36f6acee1c38f7db3579c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.1/qiwo-companion_0.1.1_portable.exe"
+        },
+        {
+          "name": "qiwo-companion_0.1.1_universal.dmg",
+          "size": 7042761,
+          "digest": "sha256:abf23ae069a2fadbc46bafe813a8995773487159c7dc2002343785b860008e7c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.1/qiwo-companion_0.1.1_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.1_x64-setup.exe",
+          "size": 2963836,
+          "digest": "sha256:ca0e9c149b4ab1a131f802a080d26b209a6954fc54c45fe8eb3d334d28a4fba2",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.1/qiwo-companion_0.1.1_x64-setup.exe"
+        }
+      ]
+    },
+    {
+      "tag_name": "companion-v0.1.0",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-companion_0.1.0_amd64.AppImage",
+          "size": 78125560,
+          "digest": "sha256:ed2aa0b1fc0964abee4ed151dd8fc04b57c602cef2e0d45ac9c902d1a6fdd871",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.0/qiwo-companion_0.1.0_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.0_amd64.deb",
+          "size": 3591236,
+          "digest": "sha256:70cda3d16318600d6b72c6dd0ef27d5e05404db89d90531636e855fd16f2a0b1",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.0/qiwo-companion_0.1.0_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.0_universal.dmg",
+          "size": 7042958,
+          "digest": "sha256:8f143f868ef854d45288bb950ab6311c7a3a1ef9c2f234fb41cd9ba9b00d0da5",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.0/qiwo-companion_0.1.0_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.0_x64-setup.exe",
+          "size": 2961575,
+          "digest": "sha256:bdf8a76f081069880498ce760dbd570e647875ea6d7019f77824297c546b0c6f",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.0/qiwo-companion_0.1.0_x64-setup.exe"
+        }
+      ]
+    }
+  ]
+}
