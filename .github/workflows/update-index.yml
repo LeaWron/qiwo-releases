@@ -3,6 +3,8 @@ on:
   release:
     types: [published, edited, deleted, unpublished]
   workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -15,6 +17,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - name: Validate index generation
+        run: python3 -m unittest discover -s tools -p 'test_*.py' -v
       - name: Refresh stable release metadata
         env:
           GH_TOKEN: ${{ github.token }}
