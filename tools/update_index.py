@@ -11,7 +11,7 @@ def build_index(pages):
         for release in page:
             if release.get('draft'):
                 continue
-            if release.get('prerelease') and not release['tag_name'].startswith('android-v'):
+            if release.get('prerelease') and not release['tag_name'].startswith(('android-v', 'companion-android-v')):
                 continue
             tag = release['tag_name']
             if tag in seen:

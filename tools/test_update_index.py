@@ -32,5 +32,11 @@ class UpdateIndexTests(unittest.TestCase):
         self.assertEqual(build_index([[dict(preview, draft=True)]])['releases'], [])
 
 
+    def test_android_assistant_plugin_previews_are_indexed_separately(self):
+        preview = dict(self.release(), tag_name='companion-android-v0.1.18-rc1', prerelease=True)
+        self.assertEqual(build_index([[preview]])['releases'], [preview])
+        self.assertEqual(build_index([[dict(preview, draft=True)]])['releases'], [])
+
+
 if __name__ == '__main__':
     unittest.main()
