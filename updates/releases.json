@@ -2,6 +2,56 @@
   "schema": 1,
   "releases": [
     {
+      "tag_name": "companion-v0.1.16",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.16",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "companion-manifest.json",
+          "size": 1070,
+          "digest": "sha256:a9a344d0ecfbec24bc422544611eb83135d7a8b3881472ca9a7cbf4b6091e203",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.16/companion-manifest.json"
+        },
+        {
+          "name": "qiwo-companion_0.1.16_amd64.AppImage",
+          "size": 83704312,
+          "digest": "sha256:98c114edc16f2442bccd4ebdf6de8a852bdac90b805323639775215cb2c65313",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.16/qiwo-companion_0.1.16_amd64.AppImage"
+        },
+        {
+          "name": "qiwo-companion_0.1.16_amd64.deb",
+          "size": 5235772,
+          "digest": "sha256:9f93ac58746bf1258ed70ede567bd32c0fdf5679767240eded8c6ebb7cfa0f0c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.16/qiwo-companion_0.1.16_amd64.deb"
+        },
+        {
+          "name": "qiwo-companion_0.1.16_macos-app.tar.gz",
+          "size": 7940862,
+          "digest": "sha256:e3069686d112485cbe092d3f7d88cf3bbb893d4b8559028f32978d8d876cabff",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.16/qiwo-companion_0.1.16_macos-app.tar.gz"
+        },
+        {
+          "name": "qiwo-companion_0.1.16_portable.exe",
+          "size": 13358592,
+          "digest": "sha256:78cd29f975a1303bb05836a6ce4bbee4397e65d7c08a432838382651855cf08c",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.16/qiwo-companion_0.1.16_portable.exe"
+        },
+        {
+          "name": "qiwo-companion_0.1.16_universal.dmg",
+          "size": 8037594,
+          "digest": "sha256:56b5a1fa3292c20de5165eae182c01d67018e252bc7220d0815ca4a60b745da0",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.16/qiwo-companion_0.1.16_universal.dmg"
+        },
+        {
+          "name": "qiwo-companion_0.1.16_x64-setup.exe",
+          "size": 3418491,
+          "digest": "sha256:2dc86dbae40a25bd042c0a02b0ab4d0f097f9bff8fb1e8eb11b8f8a36e99eb73",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/companion-v0.1.16/qiwo-companion_0.1.16_x64-setup.exe"
+        }
+      ]
+    },
+    {
       "tag_name": "companion-v0.1.15",
       "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.15",
       "draft": false,
