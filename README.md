@@ -12,20 +12,23 @@ Qiwo Input Method —— 基于 [RIME | 中州韵输入法引擎](https://rime.i
 | 平台 | tag 前缀 | 当前 | 说明 |
 |------|----------|------|------|
 | Windows | `win-v*` | 0.2.17 | 单个安装器，内含 x64 与 32 位组件；ARM64 的 Win11 装 x64 那份。可与小狼毫共存 |
-| macOS | `mac-v*` | 0.1.4 | 压缩包附 `install.sh`；macOS 13.0+，通用二进制（Intel / Apple Silicon） |
+| macOS | `mac-v*` | 0.1.5 | 压缩包附 `install.sh`；macOS 13.0+，通用二进制（Intel / Apple Silicon） |
 | Linux / IBus | `lin-v*` | 0.1.6 | IBus 引擎；压缩包附 `install.sh`，装到 `/usr` |
-| Linux / Fcitx5 | `fcitx5-v*` | [0.1.7](https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.7) | Ubuntu 26.04 amd64 / X11；独立 deb，内置助手；Qt 私有 ABI 6.10.2 |
+| Linux / Fcitx5 | `fcitx5-v*` | [0.1.8](https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.8) | Ubuntu 26.04 amd64 / X11；独立 deb，内置助手；Qt 私有 ABI 6.10.2 |
 | Android | `android-v*` | [0.2.10](https://github.com/LeaWron/qiwo-releases/releases/tag/android-v0.2.10) | 单 APK，装完即用（内置白霜）；Android 6.0+，四个 ABI 各一个包 |
-| 桌面助手 | `companion-v*` | [0.1.16](https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.16) | 内置助手，Windows 可独立更新，见下 |
+| 桌面助手 | `companion-v*` | [0.1.17](https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.17) | 内置助手，四个桌面端均可独立更新，见下 |
 
-### 桌面助手随输入法一起装
+### 桌面助手首次随输入法安装，之后独立更新
 
 `companion-v*` 这个通道是给构建流程用的：Windows / macOS / Linux 的输入法安装包
 都已经把助手打包在里面，装完输入法就有，从输入法托盘菜单的「齐我助手」打开。
 
-Windows 助手支持在助手内独立检查更新和自更新。若旧版因网络错误或 API 限流无法升级，
-可以使用助手安装器，或关闭助手后将便携版放回原安装位置。macOS、IBus 和 Fcitx5 的
-内置助手随对应输入法安装包分发。各端构建统一锁定共享助手的正式版本与源码提交。
+Windows、macOS、IBus 和 Fcitx5 助手均支持在助手内独立检查更新和自更新。
+旧的 macOS、Fcitx5 用户先分别升级输入法到 0.1.5、0.1.8，获得助手 0.1.17；
+IBus 0.1.7 已完成接入，发布构建暂因 GitHub Actions 账户额度阻塞，当前下载仍为 0.1.6。
+之后点击「更新助手」即可独立升级，无需更新输入法。Linux 和 macOS 将新版存放在用户数据目录，
+校验附件与启动结果后切换；失败保留现有版本。各端构建统一锁定共享助手的正式版本与源码提交。
+Android 的共享助手仍编译在输入法 APK 内，需要通过输入法更新送达。
 
 ### 安装
 
@@ -54,8 +57,8 @@ Android 的 APK 全部由同一个证书签名（SHA-256
 | Linux | IBus 面板「检查更新」 | 拉起齐我助手 → 下载安装包 → `pkexec` 提权安装 → 重启 ibus |
 | Android | 设置 → Qiwo → 检查更新 | 优先读取公开发布索引，下载对应 ABI 的 APK 后调起系统安装器；打开设置界面时也会自动检查，每天最多一次 |
 
-齐我助手里的「检查更新」会同时报告助手和本机输入法的版本。Windows 可独立更新助手，
-其他平台的内置助手随输入法更新送达。0.1.15 起，助手优先读取公开静态发布索引，并缓存
+齐我助手里的「检查更新」会同时报告助手和本机输入法的版本。四个桌面端均可独立更新助手，
+「更新助手」和「更新输入法」分别操作；Android 仍随 APK 更新。0.1.15 起，助手优先读取公开静态发布索引，并缓存
 查询结果；GitHub Releases API 作为备用，减少共享出口 IP 的 API 限流影响。下载完成后
 校验发布清单、大小和 SHA-256，失败时保留现有助手。
 
@@ -73,11 +76,11 @@ Qiwo 构建于以下开源项目之上：[librime](https://github.com/rime/libri
 
 ## Fcitx5 发布通道
 
-当前版本为 **[0.1.7](https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.7)**，使用独立的 `fcitx5-v*` 标签。下载 [amd64 deb](https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.7/qiwo-fcitx5_0.1.7_amd64.deb) 和 [SHA-256 校验和](https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.7/release-SHA256SUMS.txt)，在下载目录执行：
+当前版本为 **[0.1.8](https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.8)**，使用独立的 `fcitx5-v*` 标签。下载 [amd64 deb](https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.8/qiwo-fcitx5_0.1.8_amd64.deb) 和 [SHA-256 校验和](https://github.com/LeaWron/qiwo-releases/releases/download/fcitx5-v0.1.8/release-SHA256SUMS.txt)，在下载目录执行：
 
 ```sh
 sha256sum -c release-SHA256SUMS.txt
-sudo apt-get --no-remove --no-install-recommends install ./qiwo-fcitx5_0.1.5_amd64.deb
+sudo apt-get --no-remove --no-install-recommends install ./qiwo-fcitx5_0.1.8_amd64.deb
 qiwo-fcitx5-setup enable
 ```
 
@@ -91,7 +94,7 @@ qiwo-fcitx5-setup enable
 
 桌面助手统一使用 `companion-v*` 发布基线：三端构建与附件校验齐全后才公开，各输入法固定版本及源码提交取用，禁止某端先分发尚未正式发布的助手版本。输入法整包版本与助手版本分别显示。
 
-Fcitx5 0.1.7 内置已正式通用发布的齐我助手 0.1.14，直接取用公开的同一 Linux 二进制；检查更新同时报告助手与输入法版本。助手随 Fcitx5 整包升级。
+Fcitx5 0.1.8 内置已正式通用发布的齐我助手 0.1.17，直接取用公开的同一 Linux 二进制；检查更新同时报告助手与输入法版本，支持独立更新助手。
 
 助手 0.1.12 的同步内容管理四端统一：Windows 0.2.15、macOS 0.1.2、IBus 0.1.4、Fcitx5 0.1.5 均接入本体执行。请同时升级助手和输入法本体，再使用清理；旧本体会显示升级提示。
 
