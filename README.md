@@ -15,8 +15,8 @@ Qiwo Input Method —— 基于 [RIME | 中州韵输入法引擎](https://rime.i
 | macOS | `mac-v*` | 0.1.4 | 压缩包附 `install.sh`；macOS 13.0+，通用二进制（Intel / Apple Silicon） |
 | Linux / IBus | `lin-v*` | 0.1.6 | IBus 引擎；压缩包附 `install.sh`，装到 `/usr` |
 | Linux / Fcitx5 | `fcitx5-v*` | [0.1.7](https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.7) | Ubuntu 26.04 amd64 / X11；独立 deb，内置助手；Qt 私有 ABI 6.10.2 |
-| Android | `android-v*` | 0.2.8 | 单 APK，装完即用（内置白霜）；Android 6.0+，四个 ABI 各一个包 |
-| 桌面助手 | `companion-v*` | [0.1.15](https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.15) | 内置助手，Windows 可独立更新，见下 |
+| Android | `android-v*` | [0.2.10](https://github.com/LeaWron/qiwo-releases/releases/tag/android-v0.2.10) | 单 APK，装完即用（内置白霜）；Android 6.0+，四个 ABI 各一个包 |
+| 桌面助手 | `companion-v*` | [0.1.16](https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.16) | 内置助手，Windows 可独立更新，见下 |
 
 ### 桌面助手随输入法一起装
 
@@ -52,7 +52,7 @@ Android 的 APK 全部由同一个证书签名（SHA-256
 | Windows | 托盘菜单「检查更新」 | WinSparkle，读 `appcast/win.xml` |
 | macOS | 输入法菜单「检查更新」 | Sparkle，读 `appcast/mac.xml`，更新包经 Ed25519 签名 |
 | Linux | IBus 面板「检查更新」 | 拉起齐我助手 → 下载安装包 → `pkexec` 提权安装 → 重启 ibus |
-| Android | 设置 → Qiwo → 检查更新 | 直接查 GitHub Releases API 的 `android-v*`，下载 APK 后调起系统安装器；打开设置界面时也会自动检查，每天最多一次 |
+| Android | 设置 → Qiwo → 检查更新 | 优先读取公开发布索引，下载对应 ABI 的 APK 后调起系统安装器；打开设置界面时也会自动检查，每天最多一次 |
 
 齐我助手里的「检查更新」会同时报告助手和本机输入法的版本。Windows 可独立更新助手，
 其他平台的内置助手随输入法更新送达。0.1.15 起，助手优先读取公开静态发布索引，并缓存
@@ -104,3 +104,7 @@ Android 0.2.7 支持自定义自动同步间隔：在 WebDAV 同步设置中填�
 
 
 Android 0.2.8 采用相同同步规则：安全导出和词库合并均等待至少 5 秒输入空闲，网络期间正常输入，真实合并完成后才确认；同步后不再自动完整部署。待部署文件、待合并快照及各阶段结果重启后保留，提供查看文件、重试合并与“立即部署 Rime”。取消已开始的词库写入会等待安全结束。Android 应用设置仍使用独立的“手动应用”入口；自动同步自定义间隔继续保留。四个 ABI APK 已校验使用原有签名证书，可直接升级。
+
+Android 0.2.10 内置共享齐我助手 0.1.16：设置 → Qiwo → 齐我助手，可管理同步内容、预览并清理旧设备残留、查看待合并和待部署状态。修复原生状态读取层级错误导致清理误报“其他维护任务占用”的问题，清理后自动刷新实际文件列表并显示结果。
+
+设置 → 高级 → 接收测试版更新，默认关闭。打开后，输入法和助手的检查更新会包含 RC 版本，按 `0.2.10 < 0.2.11-rc1 < 0.2.11-rc2 < 0.2.11` 升级。RC 与正式版都递增 Android 安装版本码，保持原有签名。此前 0.2.9 为未正式发布的候选包，0.2.10 可覆盖升级；若旧候选版在安装前等待输入空闲时卡住，可从公开发布页直接安装一次，后续更新使用修正后的应用内流程。
