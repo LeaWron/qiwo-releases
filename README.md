@@ -11,7 +11,7 @@ Qiwo Input Method —— 基于 [RIME | 中州韵输入法引擎](https://rime.i
 
 | 平台 | tag 前缀 | 当前 | 说明 |
 |------|----------|------|------|
-| Windows | `win-v*` | 0.2.17 | 单个安装器，内含 x64 与 32 位组件；ARM64 的 Win11 装 x64 那份。可与小狼毫共存 |
+| Windows | `win-v*` | 0.2.17.1 | 单个安装器，内含 x64 与 32 位组件；ARM64 的 Win11 装 x64 那份。可与小狼毫共存 |
 | macOS | `mac-v*` | 0.1.5 | 压缩包附 `install.sh`；macOS 13.0+，通用二进制（Intel / Apple Silicon） |
 | Linux / IBus | `lin-v*` | 0.1.6 | IBus 引擎；压缩包附 `install.sh`，装到 `/usr` |
 | Linux / Fcitx5 | `fcitx5-v*` | [0.1.8](https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.8) | Ubuntu 26.04 amd64 / X11；独立 deb，内置助手；Qt 私有 ABI 6.10.2 |
@@ -120,3 +120,8 @@ Android 0.2.10 内置共享齐我助手 0.1.16：设置 → Qiwo → 齐我助�
 应用内安装：检查更新并升级输入法 → 设置 → Qiwo → 齐我助手 → 检查更新 → 更新助手。每次 APK 安装需完成 Android 系统确认，也可从上述发布页按顺序手动安装。正式版无需开启「接收测试版更新」，可直接覆盖 RC。插件使用独立的 `companion-android-v*` 通道，桌面助手正式版仍为 0.1.17。
 
 49 项 Android 单元测试和 5 项原生插件、管理测试通过，验证了同进程替换核心、保留本体版本和同步配置，以及真实备份删除设备残留。所有 8 个 APK 已校验原有签名、源码身份、安装版本码和完整性；RC 手机使用反馈未发现问题。
+
+
+### Windows 0.2.17.1 同步修复
+
+自动与手动同步统一覆盖学习词库快照、`*.custom.yaml` 和 `custom_phrase.txt`；修复大写设备 ID 导致本机 `sync/` 快照漏传。学习词库按需合并，配置变更仍需手动部署。Windows 10 x64 原生同步回归、定时器同步和安装包内容校验通过，程序内部文件版本与安装版本统一为 `0.2.17.1`。
