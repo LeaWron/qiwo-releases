@@ -2,6 +2,32 @@
   "schema": 1,
   "releases": [
     {
+      "tag_name": "win-v0.2.17.1",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.17.1",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-0.2.17.1-installer.exe",
+          "size": 43975434,
+          "digest": "sha256:168f59c1fde8f38dec990c067d8e6b32483db3dfe6406c0e3ce5370f5e604743",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.17.1/qiwo-0.2.17.1-installer.exe"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 94,
+          "digest": "sha256:c8f77779a68d4a2f2da586cbc03ce7dfe46cab6717699b995b91a8ff822325ed",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.17.1/SHA256SUMS.txt"
+        },
+        {
+          "name": "windows-release-manifest.json",
+          "size": 782,
+          "digest": "sha256:feeb0b950ae59aaa0208037435236157fdd5a5f5ebeb29e16b9d79bba67550e8",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/win-v0.2.17.1/windows-release-manifest.json"
+        }
+      ]
+    },
+    {
       "tag_name": "companion-android-v0.1.18",
       "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/companion-android-v0.1.18",
       "draft": false,
