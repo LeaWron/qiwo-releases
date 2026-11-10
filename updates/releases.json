@@ -2,6 +2,20 @@
   "schema": 1,
   "releases": [
     {
+      "tag_name": "lin-v0.1.7",
+      "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/lin-v0.1.7",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "qiwo-ibus-0.1.7.tar.gz",
+          "size": 49696636,
+          "digest": "sha256:cfe59eeaa9f9e2b526f2bbfc6aa9564bc986aa6540918945efd61feedea3be49",
+          "browser_download_url": "https://github.com/LeaWron/qiwo-releases/releases/download/lin-v0.1.7/qiwo-ibus-0.1.7.tar.gz"
+        }
+      ]
+    },
+    {
       "tag_name": "win-v0.2.17.1",
       "html_url": "https://github.com/LeaWron/qiwo-releases/releases/tag/win-v0.2.17.1",
       "draft": false,
