@@ -13,11 +13,11 @@ Qiwo Input Method —— 基于 [RIME | 中州韵输入法引擎](https://rime.i
 |------|----------|------|------|
 | Windows | `win-v*` | 0.2.17.1 | 单个安装器，内含 x64 与 32 位组件；ARM64 的 Win11 装 x64 那份。可与小狼毫共存 |
 | macOS | `mac-v*` | 0.1.5 | 压缩包附 `install.sh`；macOS 13.0+，通用二进制（Intel / Apple Silicon） |
-| Linux / IBus | `lin-v*` | 0.1.6 | IBus 引擎；压缩包附 `install.sh`，装到 `/usr` |
+| Linux / IBus | `lin-v*` | [0.1.7](https://github.com/LeaWron/qiwo-releases/releases/tag/lin-v0.1.7) | IBus 引擎；压缩包附 `install.sh`，装到 `/usr` |
 | Linux / Fcitx5 | `fcitx5-v*` | [0.1.8](https://github.com/LeaWron/qiwo-releases/releases/tag/fcitx5-v0.1.8) | Ubuntu 26.04 amd64 / X11；独立 deb，内置助手；Qt 私有 ABI 6.10.2 |
 | Android | `android-v*` | [0.2.11](https://github.com/LeaWron/qiwo-releases/releases/tag/android-v0.2.11) | 单 APK，装完即用（内置白霜）；Android 6.0+，四个 ABI 各一个包 |
 | Android 助手插件 | `companion-android-v*` | [0.1.18](https://github.com/LeaWron/qiwo-releases/releases/tag/companion-android-v0.1.18) | 独立 APK，需输入法 0.2.11；与本体使用相同 ABI |
-| 桌面助手 | `companion-v*` | [0.1.17](https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.17) | 内置助手，四个桌面端均可独立更新，见下 |
+| 桌面助手 | `companion-v*` | [0.1.18](https://github.com/LeaWron/qiwo-releases/releases/tag/companion-v0.1.18) | 内置助手，四个桌面端均可独立更新，见下 |
 
 ### 桌面助手首次随输入法安装，之后独立更新
 
@@ -25,8 +25,7 @@ Qiwo Input Method —— 基于 [RIME | 中州韵输入法引擎](https://rime.i
 都已经把助手打包在里面，装完输入法就有，从输入法托盘菜单的「齐我助手」打开。
 
 Windows、macOS、IBus 和 Fcitx5 助手均支持在助手内独立检查更新和自更新。
-旧的 macOS、Fcitx5 用户先分别升级输入法到 0.1.5、0.1.8，获得助手 0.1.17；
-IBus 0.1.7 已完成接入，发布构建暂因 GitHub Actions 账户额度阻塞，当前下载仍为 0.1.6。
+旧的 macOS、IBus、Fcitx5 用户先分别升级输入法到 0.1.5、0.1.7、0.1.8，获得支持独立更新的助手；
 之后点击「更新助手」即可独立升级，无需更新输入法。Linux 和 macOS 将新版存放在用户数据目录，
 校验附件与启动结果后切换；失败保留现有版本。各端构建统一锁定共享助手的正式版本与源码提交。
 Android 0.2.11 起支持独立助手插件；旧版用户先升级本体，再从助手内检查更新安装插件，见下方说明。
